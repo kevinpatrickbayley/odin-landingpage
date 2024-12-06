@@ -1,7 +1,11 @@
-html, body {
+html, body{
     margin: 0;
     padding: 0;
-  }  
+}  
+
+h1, h2, h3, img, p {
+    margin: 0;
+}
 
 div {
     width: auto;
