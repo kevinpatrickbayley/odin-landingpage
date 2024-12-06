@@ -3,6 +3,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    font-family: Roboto;
 }  
 
 h1, h2, h3, img, p {
@@ -21,7 +22,6 @@ div {
     align-items: center;
     padding: 0px 200px;
     justify-content: space-between;
-    font-family: Roboto;
     color: #F9FAF8;
 }
 
@@ -41,11 +41,48 @@ h3{
     gap: 20px;
 }
 
-
-
 .hero {
     background-color: #1F2937;
-    padding: 0px 200px;
+    padding: 80px 200px 125px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text-content {
+    display: flex;
+    flex-direction: column;
+    height: 275px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 600px;
+}
+
+button {
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    padding: 10px 35px;
+}
+
+.hero-img {
+    width: 600px;
+    height: 275px;
+    object-fit: cover;
+    vertical-align: middle;
 }
 
 .info {
