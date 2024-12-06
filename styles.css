@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
+div {
+    width: auto;
+    height: 200px;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.info {
+    background-color: white;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.cta {
+    background-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+}
