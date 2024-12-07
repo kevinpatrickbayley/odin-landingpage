@@ -28,6 +28,7 @@ div {
 h3{
     font-size: 24px;
     font-style: bold;
+    color: #F9FAF8;
 }
 
 .header-text {
@@ -151,7 +152,10 @@ h2 {
 .cta-content {
     margin: 75px 0px;
     background-color: #3882F6;
-    padding: 30px 100px;
+    padding: 60px 150px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
 }
 
 .footer {
