@@ -100,8 +100,9 @@ h2 {
 
 .info-array {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 100px;
+    padding: 0px 100px;
 }
 
 .info-array-item {
@@ -149,6 +150,8 @@ h2 {
 
 .cta-content {
     margin: 75px 0px;
+    background-color: #3882F6;
+    padding: 30px 100px;
 }
 
 .footer {
