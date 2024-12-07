@@ -90,9 +90,49 @@ button {
     padding: 0px 200px;
 }
 
+h2 {
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-array {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.info-array-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.array-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
 .quote {
     background-color: #e5e7eb;
     padding: 0px 200px;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.quote-attribute {
+
 }
 
 .cta {
